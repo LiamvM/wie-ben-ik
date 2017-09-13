@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(Background1.jpg);
+	background-size: 100%;
+}
+
+#MainHeader {
+	background-color: #8E0A0A;
+	color:black;
+	border-bottom: 4px black solid;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+h1 {
+	color: white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+	font-family: Arial;
+	text-align: center;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #241E1E;
+    width: 100%;
+    border-bottom: 4px solid black;
+    margin-top: 0.27%;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+li a:hover {
+    background-color: #8E0A0A;
+}
+
+.Current{
+	background-color: black;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	}
+
+footer {
+	color: white;
+	font-family: arial;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background-color: #8E0A0A;
+	border-top: 4px black solid;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer p {
+ 	margin-top:0.5%;
+}
+
+footer p a {
+	color: #241E1E;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	text-decoration: none;
+
+}
+
+footer p a:hover {
+	color: white;
+}
+
+section {
+	background-color: rgba(36, 30, 30, 0.6);
+	padding: 80px 160px 80px 160px;
+ 	text-align: center;
+ 	margin: 13% auto;
+ 	border-radius: 6px 6px 6px 6px;
+ 	border: black 3px solid;
+ 	overflow: hidden;
+ 	max-height: 10%;
+ 	max-width: 60%;
+ }
+
+ section h2 {
+ 	text-transform: uppercase;
+ 	color: white;
+ 	font-family: arial;
+ 	text-align: center;
+ 
+ }
+ 
+ 
+ section p {
+ 	text-align: center;
+ 	font-family: arial;
+ 	color: white;
+ 	padding: 0 10% 0 10%;
+ }
+
+ section a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ section a:hover {
+ 	color: black;
+ }
+
+ img {
+ 	width: 10%;
+ 	background-color: purple;
+ 	position: fixed;
+ 	top: 40%;
+ 	left: 15%;
+ 	border: 3px solid black;
+ 	border-radius: 6px 6px 6px 6px;
+ }	
